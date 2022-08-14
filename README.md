@@ -1,4 +1,4 @@
-# yolanta.petrova
+# The Game of Life
 
 The Problem
 
