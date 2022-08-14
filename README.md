@@ -2,6 +2,7 @@
 
 The Problem
 Do an implementation of Conway's Game of Life.
+
 Rules
 The universe of the Game of Life is an infinite, two-dimensional orthogonal grid of square cells,
 each of which is in one of two possible states, live or dead (or populated and unpopulated,
@@ -22,6 +23,7 @@ the above rules simultaneously to every cell in the seed, live or dead; births a
 simultaneously, and the discrete moment at which this happens is sometimes called a tick. Each
 generation is a pure function of the preceding one. The rules continue to be applied repeatedly
 to create further generations.
+
 Expected Outcome
 You should create a web page where users can play with Game of Life.
 Users should be asked to set the:
@@ -31,6 +33,7 @@ Then by clicking a button a tick in the universe should happen and the grid shou
 accordingly. Note: If an object is partially outside the grid, it should be treated as if the grid was
 infinite.
 If you find it useful you can add any other functionality on top of the required one.
+
 Resources
 Wikipedia page: https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life
 YouTube video with many different shapes: https://www.youtube.com/watch?v=C2vgICfQawE
