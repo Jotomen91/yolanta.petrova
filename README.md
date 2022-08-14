@@ -1,9 +1,11 @@
 # yolanta.petrova
 
 The Problem
+
 Do an implementation of Conway's Game of Life.
 
 Rules
+
 The universe of the Game of Life is an infinite, two-dimensional orthogonal grid of square cells,
 each of which is in one of two possible states, live or dead (or populated and unpopulated,
 respectively). Every cell interacts with its eight neighbors, which are the cells that are
@@ -18,6 +20,7 @@ the following:
 1. Any live cell with two or three live neighbors survives.
 2. Any dead cell with three live neighbors becomes a live cell.
 3. All other live cells die in the next generation. Similarly, all other dead cells stay dead.
+
 The initial pattern constitutes the seed of the system. The first generation is created by applying
 the above rules simultaneously to every cell in the seed, live or dead; births and deaths occur
 simultaneously, and the discrete moment at which this happens is sometimes called a tick. Each
@@ -25,6 +28,7 @@ generation is a pure function of the preceding one. The rules continue to be app
 to create further generations.
 
 Expected Outcome
+
 You should create a web page where users can play with Game of Life.
 Users should be asked to set the:
 - Size of the grid
@@ -35,5 +39,6 @@ infinite.
 If you find it useful you can add any other functionality on top of the required one.
 
 Resources
+
 Wikipedia page: https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life
 YouTube video with many different shapes: https://www.youtube.com/watch?v=C2vgICfQawE
